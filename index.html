@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    
+    <div class="container my-5 overflow-auto">
+        <div class="login w-75 mx-auto my-5" id="loginSection">
+
+            <h1 class="text-center">Smart Login System</h1>
+            <input type="email" class="form-control my-3 bg-transparent " placeholder="Enter your email" id="loginEmail">
+            <input type="password" class="form-control bg-transparent" placeholder="Enter your password" id="loginPassword">
+            <div id="loginAlert" class="alert alert-danger my-2 d-none" role="alert"></div>
+            <button class="btn btn-outline-info form-control my-4" id="btnLogin">Login</button>
+            <p class="text-center">Don’t have an account? <a href="" id="aSignup">Sign Up</a></p>
+            
+        </div>
+
+        
+        <div class="signup w-75 mx-auto my-5 d-none" id="signupSection">
+
+            <h1 class="text-center">Smart Login System</h1>
+            <input type="text" class="form-control my-3 bg-transparent " placeholder="Enter your name" id="inputName">
+            <input type="email" class="form-control my-3 bg-transparent " placeholder="Enter your email" id="signupEmail">
+            <input type="password" class="form-control bg-transparent" placeholder="Enter password" id="signupPassword">
+            <div id="signupAlert" class="alert alert-danger my-2 d-none" role="alert"></div>
+            <div id="signupAlertdone" class="alert alert-success my-2 d-none" role="alert"></div>
+            <button class="btn btn-outline-info form-control my-4" id="btnSignup">Sign Up</button>
+            <p class="text-center">You have an account ? <a href="" id="aLogin">Login</a></p>
+            
+        </div>
+   
+    </div>
+
+   
+    <div class="welcomeSection container  d-none" id="welcomeSection">
+       <h1 id="welcomeMessage"></h1>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

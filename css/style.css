@@ -1,0 +1,71 @@
+
+body{
+    background-color: #24353F;
+}
+.container{
+    width: 60%;
+    background-color: #24353F;
+    -webkit-box-shadow: -2px 2px 22px 11px rgba(0,0,0,0.5);
+-moz-box-shadow: -2px 2px 22px 11px rgba(0,0,0,0.5);
+box-shadow: -2px 2px 22px 11px rgba(0,0,0,0.5);
+}
+::placeholder {
+    color: #B6B6B6 !important;
+    opacity: 1 !important; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12-18 */
+    color: #B6B6B6 !important;
+  }
+  input, select, textarea{
+    color: white !important;
+}
+  .login h1{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 500;
+    color:RGB(23, 162, 184);
+    font-family:sans-serif;   
+    font-style: normal; 
+  }
+  .login button:hover{
+    background-color: #17A2B8 !important;
+    color: white;
+  }
+  .login p{
+    color: white;
+  } 
+  .login a{
+    color: white;
+  }
+
+  .signup button:hover{
+    background-color: #17A2B8 !important;
+    color: white;
+  }
+  .signup p{
+    color: white;
+  } 
+  .signup a{
+    color: white;
+  }
+  .signup h1{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 500;
+    color:RGB(23, 162, 184);
+    font-family:sans-serif;   
+    font-style: normal; 
+  }
+
+  .welcomeSection{
+    height: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:RGB(23, 162, 184); 
+    font-size: 40px;
+    font-weight: 500;
+    font-family:sans-serif;  
+  }
